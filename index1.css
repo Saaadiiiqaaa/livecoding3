@@ -1,0 +1,222 @@
+body{
+    background-color:black;
+    color: white;
+}
+
+.h1{
+    color: white;
+    font-size: xx-large;
+    text-align: left;
+}
+.circle {
+    
+    border-radius: 50%;
+    border-color: white;
+    background-color: white;
+    width:15px;
+    height:15px;
+    align-content: center;
+    margin-left: 10px;
+    animation-delay: 1s;
+   
+}
+.cir{
+    display:flex;
+    margin-left: 700px;
+    margin-top: 250px;
+    
+    
+}   
+@keyframes loada {
+    from{
+        width:9px;
+        height:9px
+    }
+    to{
+        width:20px;
+        height: 20px;
+        
+    }
+   
+
+}
+.circle {
+    animation: infinite;
+    animation-direction: alternate;
+    animation: loada 1s infinite;
+    transition: width 2s,height 9px;
+}
+
+.circleb{
+    border-radius: 50%;
+    border-color: white;
+    background-color: white;
+    width:15px;
+    height:15px;
+    align-content: center;
+    margin-left: 10px;
+    
+    animation: infinite;
+    animation-direction: alternate;
+    animation: loadb 1s infinite;
+    transition: width 2s,height 9px;
+    animation-delay: 1s;
+    
+    
+}
+
+@keyframes loadb {
+    from{
+        width:20px;
+        height:20px
+    }
+    to{
+        width:12px;
+        height:12px;
+        
+    }
+}
+
+.circlec{
+    border-radius: 50%;
+    border-color: white;
+    background-color: white;
+    width:15px;
+    height:15px;
+    align-content: center;
+    margin-left: 10px;
+    
+    animation: infinite;
+    animation-direction: alternate;
+    animation: loadc 1s infinite;
+    transition: width 2s,height 9px;
+    animation-delay: 1s;
+    
+}
+
+@keyframes loadc {
+    from{
+        width:20px;
+        height:20px
+    }
+    to{
+        width:9px;
+        height: 9px;
+        
+    }
+}
+
+@media  screen and (max-width:400px){
+    body{
+        width:200px;
+        height:600px;
+   }
+   .h1{
+    color: white;
+    font-size: 8px ;
+    text-align: left;
+}
+
+
+
+
+.circle {
+    
+    border-radius: 50%;
+    border-color: white;
+    background-color: white;
+    width:8px;
+    height:8px;
+    align-content: center;
+    margin-left: 10px;
+    animation-delay: 1s;
+   
+}
+.cir{
+    display:flex;
+    margin-left: 100px;
+    margin-top: 200px;
+    
+    
+}   
+@keyframes loada {
+    from{
+        width:7px;
+        height:7px
+    }
+    to{
+        width:15px;
+        height: 15px;
+        
+    }
+   
+
+}
+.circle {
+    animation: infinite;
+    animation-direction: alternate;
+    animation: loada 1s infinite;
+    transition: width 2s,height 9px;
+}
+
+.circleb{
+    border-radius: 50%;
+    border-color: white;
+    background-color: white;
+    width:8px;
+    height:8px;
+    align-content: center;
+    margin-left: 10px;
+    
+    animation: infinite;
+    animation-direction: alternate;
+    animation: loadb 1s infinite;
+    transition: width 2s,height 9px;
+    animation-delay: 1s;
+    
+    
+}
+
+@keyframes loadb {
+    from{
+        width:20px;
+        height:20px
+    }
+    to{
+        width:9px;
+        height:9px;
+        
+    }
+}
+
+.circlec{
+    border-radius: 50%;
+    border-color: white;
+    background-color: white;
+    width:8px;
+    height:8px;
+    align-content: center;
+    margin-left: 10px;
+    
+    animation: infinite;
+    animation-direction: alternate;
+    animation: loadc 1s infinite;
+    transition: width 2s,height 9px;
+    animation-delay: 1s;
+    
+}
+
+@keyframes loadc {
+    from{
+        width:15px;
+        height:15px
+    }
+    to{
+        width:9px;
+        height: 9px;
+        
+    }
+}
+}
+
+    
